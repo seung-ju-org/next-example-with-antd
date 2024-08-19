@@ -1,0 +1,51 @@
+{
+  "name": "next-example-with-antd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "node -e \"if (process.env.NODE_ENV !== 'production'){process.exit(1)} \" || husky"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/nextjs-registry": "^1.0.1",
+    "@tanstack/react-query": "^5.51.24",
+    "@tanstack/react-query-devtools": "^5.51.24",
+    "antd": "^5.20.1",
+    "dayjs": "^1.11.12",
+    "icons": "^1.0.0",
+    "immer": "^10.1.1",
+    "next": "14.2.5",
+    "next-auth": "^4.24.7",
+    "query-string": "^9.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "eslint-config-next": "14.2.5",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "packageManager": "pnpm@9.7.1"
+}

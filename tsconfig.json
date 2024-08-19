@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "#apis/*": ["apis/*"],
+      "#app/*": ["app/*"],
+      "#aws/*": ["aws/*"],
+      "#assets/*": ["assets/*"],
+      "#commons/*": ["commons/*"],
+      "#components/*": ["components/*"],
+      "#contexts/*": ["contexts/*"],
+      "#hooks/*": ["hooks/*"],
+      "#mocks/*": ["mocks/*"],
+      "#libs/*": ["libs/*"],
+      "#pages/*": ["pages/*"],
+      "#prisma/*": ["prisma/*"],
+      "#public/*": ["public/*"],
+      "#stores/*": ["stores/*"],
+      "#queries/*": ["queries/*"],
+      "#styles/*": ["styles/*"],
+      "#types/*": ["types/*"],
+      "#ui/*": ["ui/*"],
+      "#utils/*": ["utils/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
